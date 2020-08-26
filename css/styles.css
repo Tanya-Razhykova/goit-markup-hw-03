@@ -1,0 +1,139 @@
+:root {
+    --color-black: #212121;
+    --color-blue: #2196F3;
+    --color-white: #ffffff;
+    --color-grey: #757575;
+    --color-light-grey: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: var(--color-black);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo-web {
+    color: var(--color-blue);
+}
+
+.link-nav:hover,
+.link-nav:focus,
+.link-nav:active {
+    color: var(--color-blue);
+}
+
+.email:hover,
+.email:focus {
+    color: var(--color-blue);
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.main-title-3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.main-text-3 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--color-grey);
+}
+
+.main-title-2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.text-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.text-profession {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--color-grey);
+}
+
+.post {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--color-white);
+}
+
+.mail-tel{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--color-light-grey);
+}
+
+.portfolio-filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--color-grey);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--color-black);
+    font-style: normal;
+}
+
+button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--color-white);
+}
