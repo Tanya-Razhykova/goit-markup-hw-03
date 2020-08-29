@@ -10,19 +10,20 @@
     <link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="/" class="logo link">
-                <span class="logo-web">Web</span>Studio
-            </a>
-    
-            <ul> 
-                <li> <a href="" class="link-nav link">Студия</a></li>
-                <li> <a href="./portfolio.html" class="link-nav link">Портфолио</a></li>
-                <li> <a href="" class="link-nav link">Контакты</a></li>
-            </ul>
-        </nav>
-        <ul>
+    <div class="container">    
+        <header>
+            <nav>
+                <a href="/" class="logo link">
+                    <span class="logo-web">Web</span>Studio
+                </a>
+        
+                <ul class="list"> 
+                    <li> <a href="" class="link-nav link">Студия</a></li>
+                    <li> <a href="./portfolio.html" class="link-nav link">Портфолио</a></li>
+                    <li> <a href="" class="link-nav link">Контакты</a></li>
+                </ul>
+            </nav>
+        <ul class="list">
             <li>
                 <a href="mailto:info@example.com" class="email link">info@example.com</a>
             </li>
@@ -30,37 +31,43 @@
                 <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
             </li>
         </ul>
-    </header>
+        </header>
+    </div>
 <main>
-    <section>
+    <div class="container">
+        <section class="hero">
             <h1 class="main-title">Эффективные решения <br> для вашего бизнеса</h1>
             <button type="button">Заказать услугу</button>
+        </section>
+    </div>
+    
+    <section class="advantages">
+            <div class="container">
+                <ul class="list">
+                    <li>
+                        <h3 class="main-title-3">Внимание к деталям</h3>
+                        <p class="main-text-3">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li>
+                        <h3 class="main-title-3">Пунктуальность</h3>
+                        <p class="main-text-3">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li>
+                        <h3 class="main-title-3">Планирование</h3>
+                        <p class="main-text-3">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li>
+                        <h3 class="main-title-3">Современные технологии</h3>
+                        <p class="main-text-3">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
     </section>
-
-    <section>
-        <ul>
-            <li>
-                <h3 class="main-title-3">Внимание к деталям</h3>
-                <p class="main-text-3">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-            </li>
-            <li>
-                <h3 class="main-title-3">Пунктуальность</h3>
-                <p class="main-text-3">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-            </li>
-            <li>
-                <h3 class="main-title-3">Планирование</h3>
-                <p class="main-text-3">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-            </li>
-            <li>
-                <h3 class="main-title-3">Современные технологии</h3>
-                <p class="main-text-3">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-            </li>
-        </ul>
-    </section>
-
-    <section>
-        <h2 class="main-title-2">Чем мы занимаемся</h2>
-        <ul>
+    
+<section class="services">
+        <div class="container">
+            <h2 class="main-title-2">Чем мы занимаемся</h2>
+        <ul class="list">
             <li>
                 <img
                 src="./images/1.png" alt="Компьютер" width="370">
@@ -74,11 +81,13 @@
                 src="./images/3.png" alt="Спектор цветов на планшете" width="370">
             </li>
         </ul>
-    </section>
-
-    <section>
-        <h2 class="main-title-2">Наша команда</h2>
-        <ul>
+        </div>
+</section>
+    
+<section class="team">
+        <div class="container">
+            <h2 class="main-title-2">Наша команда</h2>
+        <ul class="list">
             <li>
                 <img src="./images/igor.jpg" alt="Игорь" width="270">
                 <p class="text-name">
@@ -108,12 +117,14 @@
                 </p>
             </li>
         </ul>
-    </section>
+        </div>
+</section>
+    
 </main>
-<footer>
-    <div>
+<footer class="page-footer">
+    <div class="container">
         <a href="/" class="logo link">
-            <span class="logo-web">Web</span>Studio
+            <span class="logo-web">Web</span><span class="logo-footer">Studio</span>
         </a>
         <address class="post">
             г. Киев, пр-т Леси Украинки, 26
