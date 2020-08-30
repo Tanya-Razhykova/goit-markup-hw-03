@@ -12,34 +12,35 @@
 <body>
     <!-- site header -->
     <div class="container">    
-        <header>
-            <nav>
+        <header class="flexbox">
+            <nav class="nav flexbox">
                 <a href="/" class="logo link">
                     <span class="logo-web">Web</span>Studio
                 </a>
         
                 <ul class="list"> 
-                    <li> <a href="./index.html" class="link-nav link">Студия</a></li>
-                    <li> <a href="./portfolio.html" class="link-nav link">Портфолио</a></li>
-                    <li> <a href="" class="link-nav link">Контакты</a></li>
+                    <li class="item"> <a href="./index.html" class="link-nav link">Студия</a></li>
+                    <li class="item"> <a href="./portfolio.html" class="link-nav link">Портфолио</a></li>
+                    <li class="item"> <a href="" class="link-nav link">Контакты</a></li>
                 </ul>
             </nav>
-        <ul class="list">
-            <li>
-                <a href="mailto:info@example.com" class="email link">info@example.com</a>
+        <ul class="list mail-tel">
+            <li class="item">
+                <a href="mailto:info@example.com" class="email link header">info@example.com</a>
             </li>
-            <li>
-                <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
+            <li class="item">
+                <a href="tel:+380991111111" class="link header">+38 099 111 11 11</a>
             </li>
         </ul>
         </header>
+        <hr>
     </div>
 <main>
     <!-- filter -->
     <section class="filter">
         <div class="container">
-            <h1 class="title-portfolio">Портфолио</h1>
-            <ul class="list">
+            <!-- <h1 class="title-portfolio">Портфолио</h1> -->
+            <ul class="list filter">
                 <li class="portfolio-filter"><a href="">Все</a></li>
                 <li class="portfolio-filter"><a href="">Веб-сайты</a></li>
                 <li class="portfolio-filter"><a href="">Приложения</a></li>
@@ -51,7 +52,7 @@
     <!-- portfolio -->
     <section class="portfolio">
         <div class="container">
-            <ul class="list">
+            <ul class="list portfolio">
                 <li class="portfolio-list">
                     <img class="portfolio-foto" src="./images/tehnokriak.jpg" alt="Ноутбук" width="370" height="294">
                     <div class="p-txt">
