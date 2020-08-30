@@ -15,6 +15,7 @@ html {
     --color-grey: #757575;
     --color-dark-grey: #2F303A;
     --color-light-grey: rgba(255, 255, 255, 0.6);
+    --color-grey-buttom: #F5F4FA;
 }
 
 body {
@@ -42,6 +43,10 @@ button {
     padding: 10px 32px;
     min-width: 200px;
     height: 50px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .container {
@@ -100,12 +105,23 @@ button {
     margin-bottom: 94px;
 }
 
+.list.advantages {
+    display: inline-block;
+    width: 270px;
+}
+
+.list.advantages:not(:last-child) {
+    margin-right: 10px;
+}
+
 .main-title-3 {
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-top: 0;
+    margin-block-end: 10px;
 }
 
 .main-text-3 {
@@ -114,10 +130,16 @@ button {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--color-grey);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .services {
     margin-bottom: 94px;
+}
+
+.list.services {
+    display: inline-block;
 }
 
 .main-title-2 {
@@ -127,11 +149,23 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 50px;
 }
 
 .team {
-    margin-bottom: 94px;
+    background-color: var(--color-grey-buttom);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.list-team {
+    display: inline-block;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.foto-team {
+    display: block;
 }
 
 .text-name {
@@ -140,6 +174,15 @@ button {
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.team-text {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: var(--color-white);
+    border-style: none;
 }
 
 .text-profession {
@@ -149,6 +192,8 @@ button {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--color-grey);
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .post {
@@ -173,11 +218,25 @@ button {
 }
 
 .portfolio-filter {
+    display: inline-block;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
+    text-decoration: none;
+    color: var(--color-black);
+    height: 38px;
+    border-radius: 4px;
+    padding: 6px 22px;
+    background-color: var(--color-grey-buttom);
+}
+
+.portfolio-filter:hover,
+.portfolio-filter:focus,
+.portfolio-filter:active {
+    background-color: var(--color-blue);
+    color: var(--color-white);
 }
 
 .portfolio {
@@ -189,11 +248,23 @@ button {
     font-size: none;
 }
 
+.portfolio-list {
+    display: inline-block;
+    border: 1px solid #EEEEEE;
+}
+
+.p-txt {
+    padding: 20px 24px;
+}
+
+
 .portfolio-name {
     font-weight: bold;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .portfolio-text {
@@ -202,12 +273,18 @@ button {
     line-height: 30px;
     letter-spacing: 0.03em;
     color: var(--color-grey);
+    margin-top: 0;
+    margin-bottom:0px;
 }
 
 .link {
     text-decoration: none;
     color: var(--color-black);
     font-style: normal;
+}
+
+.link.footer {
+    color: var(--color-light-grey);
 }
 
 .page-footer {
