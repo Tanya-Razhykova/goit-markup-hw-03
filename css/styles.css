@@ -155,10 +155,13 @@ hr {
     color: var(--color-white);
 }
 
-.hero {
+.container.hero {
     text-align: center;
+    width: 1600px;
+    height: 600px;
     margin-bottom: 94px;
     padding-top: 200px;
+    padding-bottom: 200px;
     background-color: #2F303A;
 }
 
@@ -277,7 +280,7 @@ hr {
     margin-top: 20px;
 }
 
-.mail-tel{
+.mail-tel.footer {
     font-weight: normal;
     display: flex;
     margin-top: 9px;
@@ -287,6 +290,15 @@ hr {
     color: var(--color-light-grey);
     flex-wrap: wrap;
     width: 231px;
+}
+
+.mail-tel {
+    font-weight: normal;
+    margin-top: 9px;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--color-light-grey);
 }
 
 .link.footer:not(:last-child) {
