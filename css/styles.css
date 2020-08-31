@@ -60,6 +60,7 @@ a {
 .flexbox {
     display: flex;
     align-items: center;
+    height: 80px;
 }
 
 hr {
@@ -131,6 +132,10 @@ hr {
     margin-right: 50px;
 }
 
+/* .item {
+    height: 80px;
+} */
+
 .list .filter {
     align-items: center;
 }
@@ -153,6 +158,10 @@ hr {
 .hero {
     text-align: center;
     margin-bottom: 94px;
+    width: 1600px;
+    height: 600px;
+    padding-top: 200px;
+    background-color: #2F303A;
 }
 
 .advantages {
@@ -266,14 +275,24 @@ hr {
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--color-white);
+    font-style: normal;
+    margin-top: 20px;
 }
 
 .mail-tel{
     font-weight: normal;
+    display: flex;
+    margin-top: 9px;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: var(--color-light-grey);
+    flex-wrap: wrap;
+    width: 231px;
+}
+
+.link.footer:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .filter {
@@ -377,4 +396,14 @@ hr {
 
 .page-footer {
     background-color: var(--color-dark-grey);
+    height: 252px;
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+}
+
+logo.link.footer {
+    display: block;
+    margin-right: 0px;
 }
